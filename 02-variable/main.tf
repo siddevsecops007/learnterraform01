@@ -50,3 +50,7 @@ output "list_one_var" {
 output "map_one_var" {
   value = var.map_1["aws"]["trainer"]
 }
+
+output "list_1" {
+  value = var.list_1
+}
