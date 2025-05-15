@@ -48,5 +48,5 @@ output "list_one_var" {
 }
 
 output "map_one_var" {
-  value = var.map_1[aws][trainer]
+  value = var.map_1["aws"]["trainer"]
 }
