@@ -7,3 +7,10 @@ variable "URL" {
 output "URL" {
   value = var.URL
 }
+
+
+##combo with string
+
+output "URL-combo" {
+  value = "URL is ${var.URL}"
+}
