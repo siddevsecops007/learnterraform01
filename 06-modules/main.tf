@@ -11,7 +11,7 @@ module "ec2" {
 }
 
 output "ip" {
-  value = module.ec2
+  value = module.ec2.ip_address
 }
 
 # module "route53" {
